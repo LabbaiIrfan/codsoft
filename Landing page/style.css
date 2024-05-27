@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header {
+    padding: 20px 0;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {font-size: 24px;}
+header nav ul {list-style: none;}
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.hero {
+  background-image: url("/landing page/images/Coftea.jpg");
+  background-size: cover;
+  color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.button {
+    padding: 15px 30px;
+    background-color: #ff9800;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.about {
+    padding: 50px 0;
+    text-align: center;
+}
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.about p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.products {
+    padding: 50px 0;
+    text-align: center;
+}
+.products h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.card {
+    display: inline-block;
+    width: 300px;
+    padding: 20px;
+    margin: 0 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.card h3 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+.card p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.card .price {
+    font-size: 20px;
+    color: #ff9800;
+}
+.contact {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+.contact h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact button {
+    padding: 15px 30px;
+    background-color: #ff9800;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
